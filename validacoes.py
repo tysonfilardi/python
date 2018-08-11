@@ -5,9 +5,7 @@ from flask import abort
 
 class VinculoValidator(ValidatorSQL):
 
-    # def __init__(self):
-    #     self.__error_handler = PtBrHandler()
+    def validar_infomacoes(json_items):
+        print(json_items)
 
-    def validar_vinculo(json_items):
-        print("chegou aqui")
 
